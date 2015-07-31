@@ -39,17 +39,19 @@ class ViewController: UIViewController {
         var image4 = UIImage(named: "RedBalloon4.jpg")
 
         var images = [image1, image2, image3, image4]
-        var indexPath = Int(arc4random_uniform(UInt32(images.count)))
-        while currentIndex == indexPath {
-            indexPath = Int(arc4random_uniform(UInt32(images.count)))
-        }
+        var indexPath = 0
+        do {
+           indexPath = Int(arc4random_uniform(UInt32(images.count)))
+        }while currentIndex == indexPath
         
-        currentIndex = indexPath
-
+       currentIndex = indexPath
+        
         self.imageView.image = images[indexPath]
         self.balloonLabel.text = "\(count++) Balloon"
 
-        
+        if count == 99 {
+            count = 0
+        }
     }
     
 
