@@ -13,6 +13,11 @@
 		34DD1FB11B6BE6C300BE853D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FB01B6BE6C300BE853D /* Images.xcassets */; };
 		34DD1FB41B6BE6C300BE853D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FB21B6BE6C300BE853D /* LaunchScreen.xib */; };
 		34DD1FC01B6BE6C300BE853D /* _9RedBalloonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD1FBF1B6BE6C300BE853D /* _9RedBalloonTests.swift */; };
+		34DD1FCF1B6BE82B00BE853D /* BerlinTVTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FCA1B6BE82B00BE853D /* BerlinTVTower.jpg */; };
+		34DD1FD01B6BE82B00BE853D /* RedBalloon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FCB1B6BE82B00BE853D /* RedBalloon1.jpg */; };
+		34DD1FD11B6BE82B00BE853D /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FCC1B6BE82B00BE853D /* RedBalloon2.jpg */; };
+		34DD1FD21B6BE82B00BE853D /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FCD1B6BE82B00BE853D /* RedBalloon3.jpg */; };
+		34DD1FD31B6BE82B00BE853D /* RedBalloon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DD1FCE1B6BE82B00BE853D /* RedBalloon4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		34DD1FB91B6BE6C300BE853D /* 99RedBalloonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99RedBalloonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DD1FBE1B6BE6C300BE853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DD1FBF1B6BE6C300BE853D /* _9RedBalloonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9RedBalloonTests.swift; sourceTree = "<group>"; };
+		34DD1FCA1B6BE82B00BE853D /* BerlinTVTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BerlinTVTower.jpg; sourceTree = "<group>"; };
+		34DD1FCB1B6BE82B00BE853D /* RedBalloon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon1.jpg; sourceTree = "<group>"; };
+		34DD1FCC1B6BE82B00BE853D /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
+		34DD1FCD1B6BE82B00BE853D /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
+		34DD1FCE1B6BE82B00BE853D /* RedBalloon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				34DD1FA81B6BE6C300BE853D /* Info.plist */,
+				34DD1FC91B6BE78300BE853D /* images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +121,18 @@
 				34DD1FBE1B6BE6C300BE853D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34DD1FC91B6BE78300BE853D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				34DD1FCA1B6BE82B00BE853D /* BerlinTVTower.jpg */,
+				34DD1FCB1B6BE82B00BE853D /* RedBalloon1.jpg */,
+				34DD1FCC1B6BE82B00BE853D /* RedBalloon2.jpg */,
+				34DD1FCD1B6BE82B00BE853D /* RedBalloon3.jpg */,
+				34DD1FCE1B6BE82B00BE853D /* RedBalloon4.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +215,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DD1FD11B6BE82B00BE853D /* RedBalloon2.jpg in Resources */,
 				34DD1FAF1B6BE6C300BE853D /* Main.storyboard in Resources */,
+				34DD1FD21B6BE82B00BE853D /* RedBalloon3.jpg in Resources */,
 				34DD1FB41B6BE6C300BE853D /* LaunchScreen.xib in Resources */,
+				34DD1FD31B6BE82B00BE853D /* RedBalloon4.jpg in Resources */,
 				34DD1FB11B6BE6C300BE853D /* Images.xcassets in Resources */,
+				34DD1FD01B6BE82B00BE853D /* RedBalloon1.jpg in Resources */,
+				34DD1FCF1B6BE82B00BE853D /* BerlinTVTower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
